@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Student Online Test</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<h1>Online Test</h1>
-
 <input type="text" id="studentName" placeholder="Enter your name">
+
+<p>Time left: <span id="time">60</span> seconds</p>
 
 <div id="quiz"></div>
 
@@ -17,12 +9,6 @@
 <h2 id="result"></h2>
 
 <script src="script.js"></script>
+
 </body>
 </html>
-<h1>Online Test</h1>
-
-<input type="text" id="studentName" placeholder="Enter your name">
-
-<p>Time left: <span id="time">60</span> seconds</p>
-
-<div id="quiz"></div>
